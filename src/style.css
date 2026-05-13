@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+/* Definindo o tema customizado para a Odontologia Fortunato */
+@theme {
+  --color-brand-light: var(--brand-light);
+  --color-brand: var(--brand-core);
+  --color-brand-dark: var(--brand-dark);
+}
+
+:root {
+  /* Variáveis fáceis de alterar futuramente */
+  --brand-light: #e0f2fe; /* Azul bem claro */
+  --brand-core: #D3AF37;  /* Azul moderno (Sky 500) */
+  --brand-dark: #b89831;  /* Azul escuro para hover */
+  
+  background-color: #f8fafc; /* Fundo geral do site (Slate 50) */
+}
+
+/* Transições globais suaves */
+html {
+  scroll-behavior: smooth;
+}
+
+.font-primary {
+  font-family: 'Outfit', sans-serif;
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.4s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
