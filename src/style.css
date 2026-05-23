@@ -9,9 +9,10 @@
 
 :root {
   /* Variáveis fáceis de alterar futuramente */
-  --brand-light: #e0f2fe; /* Azul bem claro */
+  --brand-light: #ffae0038; /* Azul bem claro */
   --brand-core: #D3AF37;  /* Azul moderno (Sky 500) */
   --brand-dark: #b89831;  /* Azul escuro para hover */
+  --brand-bg: #d1d1d1;
   
   background-color: #f8fafc; /* Fundo geral do site (Slate 50) */
 }
