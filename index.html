@@ -152,7 +152,7 @@
   <!-- Section: Sobre a Clínica e Qualidade -->
   <section id="sobre" class="py-16 md:py-24 bg-white">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="flex flex-col md:flex-row items-center gap-12 lg:gap-20">
+      <div class="flex flex-col-reverse md:flex-row items-center gap-8 lg:gap-20">
 
         <!-- Imagem da Clínica -->
         <div
@@ -161,25 +161,25 @@
           <div class="absolute inset-0 bg-brand-light rounded-3xl transform -rotate-3 scale-105 opacity-60"></div>
           <img src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?q=80&w=800&auto=format&fit=crop"
             alt="Interior da clínica Odontologia Fortunato"
-            class="relative rounded-2xl shadow-lg w-full h-[400px] object-cover border border-slate-100" />
+            class="relative rounded-2xl shadow-lg w-full h-50 md:h-100 object-cover border border-slate-100" />
         </div>
 
         <!-- Conteúdo de Qualidade -->
         <div class="flex-1 order-1 md:order-2 text-center md:text-left">
-          <span class="text-brand font-semibold tracking-wide uppercase text-sm">Estrutura Premium</span>
-          <h2 class="mt-2 text-3xl md:text-4xl font-bold text-slate-900 leading-tight">
+          <span class="text-brand font-semibold tracking-wide uppercase text-xs md:text-sm">Estrutura Premium</span>
+          <h2 class="mt-2 text-2xl md:text-4xl font-bold text-slate-900 leading-tight">
             Padrão ouro em cada detalhe do seu tratamento
           </h2>
-          <p class="mt-4 text-lg text-slate-600">
+          <p class="mt-4 mx-2 md:mx-0 text-sm md:text-lg text-slate-600">
             A Odontologia Fortunato foi planejada meticulosamente para oferecer conforto e segurança. Nosso compromisso
             é entregar excelência clínica em um ambiente acolhedor.
           </p>
 
           <!-- Diferenciais (Grid) -->
-          <div class="mt-10 grid grid-cols-1 sm:grid-cols-2 gap-8 text-left">
+          <div class="mt-8 md:mt-10 grid grid-cols-1 sm:grid-cols-2 gap-8 text-left">
 
             <!-- Item 1 -->
-            <div class="flex items-start gap-4">
+            <div class="flex items-center md:items-start gap-4">
               <div class="bg-brand-light text-brand p-3 rounded-xl flex-shrink-0">
                 <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -188,8 +188,8 @@
                 </svg>
               </div>
               <div>
-                <h3 class="font-bold text-slate-900">Tecnologia Avançada</h3>
-                <p class="text-sm text-slate-600 mt-1">Equipamentos de última geração para diagnósticos precisos.</p>
+                <h3 class="text-sm font-bold text-slate-900">Tecnologia Avançada</h3>
+                <p class="text-xs text-slate-600 mt-1">Equipamentos de última geração para diagnósticos precisos.</p>
               </div>
             </div>
 
@@ -202,8 +202,8 @@
                 </svg>
               </div>
               <div>
-                <h3 class="font-bold text-slate-900">Atendimento Humanizado</h3>
-                <p class="text-sm text-slate-600 mt-1">Ouvimos você. Cada plano de tratamento é 100% personalizado.</p>
+                <h3 class="text-sm font-bold text-slate-900">Atendimento Humanizado</h3>
+                <p class="text-xs text-slate-600 mt-1">Ouvimos você. Cada plano de tratamento é 100% personalizado.</p>
               </div>
             </div>
 
@@ -217,8 +217,8 @@
                 </svg>
               </div>
               <div>
-                <h3 class="font-bold text-slate-900">Biossegurança Rigorosa</h3>
-                <p class="text-sm text-slate-600 mt-1">Esterilização hospitalar para garantir a sua total proteção.</p>
+                <h3 class="text-sm font-bold text-slate-900">Biossegurança Rigorosa</h3>
+                <p class="text-xs text-slate-600 mt-1">Esterilização hospitalar para garantir a sua total proteção.</p>
               </div>
             </div>
 
@@ -231,8 +231,8 @@
                 </svg>
               </div>
               <div>
-                <h3 class="font-bold text-slate-900">Conforto em Foco</h3>
-                <p class="text-sm text-slate-600 mt-1">Ambiente climatizado e técnicas projetadas para evitar dores.</p>
+                <h3 class="text-sm font-bold text-slate-900">Conforto em Foco</h3>
+                <p class="text-xs text-slate-600 mt-1">Ambiente climatizado e técnicas projetadas para evitar dores.</p>
               </div>
             </div>
 
@@ -394,6 +394,318 @@
               <div class="overflow-hidden">
                 <div
                   class="pt-4 border-t border-slate-200 mt-4 md:opacity-0 md:group-hover:opacity-100 transition-opacity duration-500 delay-100">
+                  <p class="text-slate-600 text-sm mb-4">
+                    Cirurgião-dentista há 8 anos, formado pela Uningá e especialista em Ortodontia e Ortopedia Facial.
+                    Atua em diversos consultórios da região levando autoestima, saúde e confiança através de tratamentos
+                    ortodônticos modernos e humanizados.
+                  </p>
+                  <a href="https://www.instagram.com/weslennespolo?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+                    target="_blank"
+                    class="inline-flex items-center gap-2 text-brand hover:text-brand-dark font-medium transition-colors text-sm">
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                      <path
+                        d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 1.926-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 1.927 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-1.926 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-1.926-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+                    </svg>
+                    @weslennespolo
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="equipe" class="py-12 md:py-24 bg-white border-t border-slate-100">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+      <div class="text-center max-w-2xl mx-auto mb-10 md:mb-16">
+        <span class="text-brand font-semibold tracking-wide uppercase text-xs md:text-sm">Nossos Especialistas</span>
+        <h2 class="mt-2 text-2xl md:text-4xl font-bold text-slate-900">
+          Profissionais dedicados ao seu sorriso
+        </h2>
+        <p class="mt-3 md:mt-4 text-base md:text-lg text-slate-600">
+          Conheça a equipe de especialistas altamente qualificados da Odontologia Fortunato.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-8">
+
+        <div
+          class="bg-slate-50 rounded-2xl shadow-sm border border-slate-100 overflow-hidden group hover:shadow-xl transition-all duration-300">
+          <div class="overflow-hidden relative">
+            <div
+              class="absolute inset-0 bg-brand/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10 pointer-events-none">
+            </div>
+            <img src="./src/assets/img/Img_dr/maiara.jpeg" alt="Dra. Maiara C. Ch. Fortunato dos Santos"
+              class="w-full h-[160px] md:h-[400px] object-cover object-top md:group-hover:scale-105 transition-transform duration-700" />
+          </div>
+
+          <div class="p-4 md:p-6">
+            <h3 class="text-lg md:text-2xl font-bold text-slate-900 leading-tight">Dra. Maiara C. Ch. Fortunato dos
+              Santos</h3>
+            <p class="text-brand font-medium text-sm md:text-base mt-1 md:mt-0">Prótese Dentária</p>
+
+            <div
+              class="grid grid-rows-[1fr] md:grid-rows-[0fr] md:group-hover:grid-rows-[1fr] transition-[grid-template-rows] duration-500 ease-in-out">
+              <div class="overflow-hidden">
+                <div
+                  class="pt-3 md:pt-4 border-t border-slate-200 mt-3 md:mt-4 md:opacity-0 md:group-hover:opacity-100 transition-opacity duration-500 delay-100">
+                  <p class="text-slate-600 text-xs md:text-sm mb-3 md:mb-4">
+                    Especialista em prótese dentária, formada pela Uningá, com 7 anos de experiência transformando
+                    sorrisos.
+                    Atua no consultório particular e também no serviço público, levando autoestima, confiança e saúde
+                    integral
+                    aos pacientes através de um atendimento humanizado e acolhedor.
+                  </p>
+                  <a href="https://www.instagram.com/maiara.fortunato_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+                    target="_blank"
+                    class="inline-flex items-center gap-2 text-brand hover:text-brand-dark font-medium transition-colors text-xs md:text-sm">
+                    <svg class="w-4 h-4 md:w-5 md:h-5" fill="currentColor" viewBox="0 0 24 24">
+                      <path
+                        d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 1.926-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 1.927 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-1.926 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-1.926-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+                    </svg>
+                    @maiara.fortunato_
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="bg-slate-50 rounded-2xl shadow-sm border border-slate-100 overflow-hidden group hover:shadow-xl transition-all duration-300">
+          <div class="overflow-hidden relative">
+            <div
+              class="absolute inset-0 bg-brand/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10 pointer-events-none">
+            </div>
+            <img src="./src/assets/img/Img_dr/amanda.jpeg" alt="Dra. Amanda Jubainski"
+              class="w-full h-[160px] md:h-[400px] object-cover object-top md:group-hover:scale-105 transition-transform duration-700" />
+          </div>
+          <div class="p-4 md:p-6">
+            <h3 class="text-lg md:text-2xl font-bold text-slate-900 leading-tight">Dra. Amanda Jubainski</h3>
+            <p class="text-brand font-medium text-sm md:text-base mt-1 md:mt-0">Clínica Geral e Endodontia</p>
+
+            <div
+              class="grid grid-rows-[1fr] md:grid-rows-[0fr] md:group-hover:grid-rows-[1fr] transition-[grid-template-rows] duration-500 ease-in-out">
+              <div class="overflow-hidden">
+                <div
+                  class="pt-3 md:pt-4 border-t border-slate-200 mt-3 md:mt-4 md:opacity-0 md:group-hover:opacity-100 transition-opacity duration-500 delay-100">
+                  <p class="text-slate-600 text-xs md:text-sm mb-3 md:mb-4">
+                    Cirurgiã-dentista formada pela UEM, apaixonada pela clínica geral e pela endodontia, área em que
+                    está
+                    iniciando sua especialização. Atua com responsabilidade, excelência técnica e dedicação em cada
+                    atendimento.
+                  </p>
+                  <a href="https://www.instagram.com/amandajubainski?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+                    target="_blank"
+                    class=" inline-flex items-center gap-2 text-brand hover:text-brand-dark font-medium transition-colors text-xs md:text-sm">
+                    <svg class="w-4 h-4 md:w-5 md:h-5" fill="currentColor" viewBox="0 0 24 24">
+                      <path
+                        d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 1.926-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 1.927 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-1.926 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-1.926-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+                    </svg>
+                    @amandajubainski
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="bg-slate-50 rounded-2xl shadow-sm border border-slate-100 overflow-hidden group hover:shadow-xl transition-all duration-300">
+          <div class="overflow-hidden relative">
+            <div
+              class="absolute inset-0 bg-brand/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10 pointer-events-none">
+            </div>
+            <img src="./src/assets/img/Img_dr/weslen.jpeg" alt="Dr. Weslen Ronqui Nespolo"
+              class="w-full h-[160px] md:h-[400px] object-cover object-top md:group-hover:scale-105 transition-transform duration-700" />
+          </div>
+          <div class="p-4 md:p-6">
+            <h3 class="text-lg md:text-2xl font-bold text-slate-900 leading-tight">Dr. Weslen Ronqui Nespolo</h3>
+            <p class="text-brand font-medium text-sm md:text-base mt-1 md:mt-0">Ortodontia e Ortopedia Facial</p>
+
+            <div
+              class="grid grid-rows-[1fr] md:grid-rows-[0fr] md:group-hover:grid-rows-[1fr] transition-[grid-template-rows] duration-500 ease-in-out">
+              <div class="overflow-hidden">
+                <div
+                  class="pt-3 md:pt-4 border-t border-slate-200 mt-3 md:mt-4 md:opacity-0 md:group-hover:opacity-100 transition-opacity duration-500 delay-100">
+                  <p class="text-slate-600 text-xs md:text-sm mb-3 md:mb-4">
+                    Cirurgião-dentista há 8 anos, formado pela Uningá e especialista em Ortodontia e Ortopedia Facial.
+                    Atua em diversos consultórios da região levando autoestima, saúde e confiança através de tratamentos
+                    ortodônticos modernos e humanizados.
+                  </p>
+                  <a href="https://www.instagram.com/weslennespolo?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+                    target="_blank"
+                    class="inline-flex items-center gap-2 text-brand hover:text-brand-dark font-medium transition-colors text-xs md:text-sm">
+                    <svg class="w-4 h-4 md:w-5 md:h-5" fill="currentColor" viewBox="0 0 24 24">
+                      <path
+                        d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 1.926-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 1.927 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-1.926 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-1.926-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+                    </svg>
+                    @weslennespolo
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Section: Corpo Clínico (Doutores) -->
+  <section id="equipe" class="py-16 md:py-24 bg-white border-t border-slate-100">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+      <!-- Cabeçalho da Seção -->
+      <div class="text-center max-w-2xl mx-auto mb-16">
+        <span class="text-brand font-semibold tracking-wide uppercase text-sm">Nossos Especialistas</span>
+        <h2 class="mt-2 text-3xl md:text-4xl font-bold text-slate-900">
+          Profissionais dedicados ao seu sorriso
+        </h2>
+        <p class="mt-4 text-lg text-slate-600">
+          Conheça a equipe de especialistas altamente qualificados da Odontologia Fortunato.
+        </p>
+      </div>
+
+      <!-- Grid de Doutores -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
+
+        <!-- Doutor 1 -->
+        <!-- Adicionado cursor-pointer para melhorar a interação no mobile -->
+        <div
+          class="bg-slate-50 rounded-2xl shadow-sm border border-slate-100 overflow-hidden group hover:shadow-xl transition-all duration-300 cursor-pointer">
+          <!-- Foto -->
+          <div class="overflow-hidden relative">
+            <div
+              class="absolute inset-0 bg-brand/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10 pointer-events-none">
+            </div>
+            <!-- Foto ajustada para h-[240px] no mobile -->
+            <img src="./src/assets/img/Img_dr/maiara.jpeg" alt="Dra. Maiara C. Ch. Fortunato dos Santos"
+              class="w-full h-[240px] md:h-[400px] object-cover object-top md:group-hover:scale-105 transition-transform duration-700" />
+          </div>
+
+          <!-- Informações -->
+          <div class="p-6">
+            <h3 class="text-2xl font-bold text-slate-900 leading-tight">Dra. Maiara C. Ch. Fortunato dos Santos</h3>
+
+            <!-- Linha com Especialidade e Ícone indicativo -->
+            <div class="flex items-center justify-between mt-1">
+              <p class="text-brand font-medium">Prótese Dentária</p>
+              <!-- Ícone de seta (Aparece só no mobile, e gira quando o card abre) -->
+              <svg
+                class="w-5 h-5 text-brand md:hidden transform group-hover:rotate-180 transition-transform duration-300"
+                fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+              </svg>
+            </div>
+
+            <!-- Container expansível (Fechado por padrão, abre no hover/tap tanto no mobile quanto desktop) -->
+            <div
+              class="grid grid-rows-[0fr] group-hover:grid-rows-[1fr] transition-[grid-template-rows] duration-500 ease-in-out">
+              <div class="overflow-hidden">
+                <div
+                  class="pt-4 border-t border-slate-200 mt-4 opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-100">
+                  <p class="text-slate-600 text-sm mb-4">
+                    Especialista em prótese dentária, formada pela Uningá, com 7 anos de experiência transformando
+                    sorrisos. Atua no consultório particular e também no serviço público, levando autoestima, confiança
+                    e saúde
+                    integral aos pacientes através de um atendimento humanizado e acolhedor.
+                  </p>
+                  <a href="https://www.instagram.com/maiara.fortunato_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+                    target="_blank"
+                    class="inline-flex items-center gap-2 text-brand hover:text-brand-dark font-medium transition-colors text-sm">
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                      <path
+                        d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 1.926-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 1.927 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-1.926 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-1.926-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+                    </svg>
+                    @maiara.fortunato_
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Doutor 2 -->
+        <div
+          class="bg-slate-50 rounded-2xl shadow-sm border border-slate-100 overflow-hidden group hover:shadow-xl transition-all duration-300 cursor-pointer">
+          <div class="overflow-hidden relative">
+            <div
+              class="absolute inset-0 bg-brand/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10 pointer-events-none">
+            </div>
+            <img src="./src/assets/img/Img_dr/amanda.jpeg" alt="Dra. Amanda Jubainski"
+              class="w-full h-[240px] md:h-[400px] object-cover object-top md:group-hover:scale-105 transition-transform duration-700" />
+          </div>
+          <div class="p-6">
+            <h3 class="text-2xl font-bold text-slate-900 leading-tight">Dra. Amanda Jubainski</h3>
+
+            <div class="flex items-center justify-between mt-1">
+              <p class="text-brand font-medium">Clínica Geral e Endodontia</p>
+              <svg
+                class="w-5 h-5 text-brand md:hidden transform group-hover:rotate-180 transition-transform duration-300"
+                fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+              </svg>
+            </div>
+
+            <div
+              class="grid grid-rows-[0fr] group-hover:grid-rows-[1fr] transition-[grid-template-rows] duration-500 ease-in-out">
+              <div class="overflow-hidden">
+                <div
+                  class="pt-4 border-t border-slate-200 mt-4 opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-100">
+                  <p class="text-slate-600 text-sm mb-4">
+                    Cirurgiã-dentista formada pela UEM, apaixonada pela clínica geral e pela endodontia, área em que
+                    está
+                    iniciando sua especialização. Atua com responsabilidade, excelência técnica e dedicação em cada
+                    atendimento.
+                  </p>
+                  <a href="https://www.instagram.com/amandajubainski?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+                    target="_blank"
+                    class="inline-flex items-center gap-2 text-brand hover:text-brand-dark font-medium transition-colors text-sm">
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                      <path
+                        d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 1.926-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 1.927 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-1.926 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-1.926-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+                    </svg>
+                    @amandajubainski
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Doutor 3 -->
+        <div
+          class="bg-slate-50 rounded-2xl shadow-sm border border-slate-100 overflow-hidden group hover:shadow-xl transition-all duration-300 cursor-pointer">
+          <div class="overflow-hidden relative">
+            <div
+              class="absolute inset-0 bg-brand/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10 pointer-events-none">
+            </div>
+            <img src="./src/assets/img/Img_dr/weslen.jpeg" alt="Dr. Weslen Ronqui Nespolo"
+              class="w-full h-[240px] md:h-[400px] object-cover object-top md:group-hover:scale-105 transition-transform duration-700" />
+          </div>
+          <div class="p-6">
+            <h3 class="text-2xl font-bold text-slate-900 leading-tight">Dr. Weslen Ronqui Nespolo</h3>
+
+            <div class="flex items-center justify-between mt-1">
+              <p class="text-brand font-medium">Ortodontia e Ortopedia Facial</p>
+              <svg
+                class="w-5 h-5 text-brand md:hidden transform group-hover:rotate-180 transition-transform duration-300"
+                fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+              </svg>
+            </div>
+
+            <div
+              class="grid grid-rows-[0fr] group-hover:grid-rows-[1fr] transition-[grid-template-rows] duration-500 ease-in-out">
+              <div class="overflow-hidden">
+                <div
+                  class="pt-4 border-t border-slate-200 mt-4 opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-100">
                   <p class="text-slate-600 text-sm mb-4">
                     Cirurgião-dentista há 8 anos, formado pela Uningá e especialista em Ortodontia e Ortopedia Facial.
                     Atua em diversos consultórios da região levando autoestima, saúde e confiança através de tratamentos
